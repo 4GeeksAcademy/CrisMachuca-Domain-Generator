@@ -1,1 +1,130 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Concert+One&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://www.feelconnected.com.my/wp-content/uploads/2020/10/feel-connected-background-coffee-laptop.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+h5 {
+  display: inline;
+  font-family: "Courier New", Courier, monospace;
+  margin-inline-end: 1em;
+}
+.fa-brands {
+  font-size: larger;
+  margin-right: 1em;
+}
+a {
+  text-decoration: none; /* Elimina el subrayado */
+  color: inherit; /* Hereda el color del texto del elemento padre */
+}
+.btn {
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+form {
+  margin-top: 1.5em;
+}
+.title {
+  color: white;
+  text-align: center;
+  font-family: "Bungee", sans-serif;
+}
+.title-container {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  background-color: #212529;
+  margin-top: 2em;
+  padding: 20px;
+  border-radius: 8px;
+  width: fit-content;
+  border: 3px solid #fcc12d;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.267);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.heading-title {
+  color: black;
+  font-family: "Bungee", sans-serif;
+}
+.subheading-title {
+  color: black;
+  font-family: "Concert One", sans-serif;
+}
+.img-container {
+  width: 30%;
+  height: auto;
+  object-fit: cover;
+}
+
+.fixed-bottom {
+  background-color: #212529;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+}
+.row {
+  height: 300px;
+}
+.card {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.card-body {
+  height: 250px;
+}
+.card-top {
+  background-color: #fcc12d;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.custom-text {
+  font-family: "Concert One", sans-serif;
+  font-size: larger;
+}
+#domainInput,
+#customDomainInput {
+  color: rgb(0, 196, 104);
+  font-family: "Concert One", sans-serif;
+  text-align: center;
+  border: 2px solid black;
+}
+.card-title {
+  font-family: "Bungee", sans-serif;
+}
+#listas {
+  background-color: rgba(18, 18, 19, 0.63);
+  height: auto;
+  padding-top: 1em;
+  color: #fcc12d;
+  text-align: left;
+}
+#listas ul {
+  column-count: 3; /* Define el número de columnas */
+  column-gap: 2px; /* Espacio entre columnas */
+}
+
+#listas li {
+  margin-bottom: 10px; /* Espacio entre elementos de la lista */
+}
+/* Media query para pantallas pequeñas */
+@media screen and (max-width: 600px) {
+  #listas ul {
+    column-count: 1; /* Cambia a una sola columna */
+  }
+  .img-container {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+}
